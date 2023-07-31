@@ -1,7 +1,7 @@
 module.exports = [
   'strapi::errors',
   {
-    name: 'strapi::security',
+    name: 'strapi::security', // strapi security
     config: {
       contentSecurityPolicy: {
         useDefaults: true,
